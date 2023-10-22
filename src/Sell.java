@@ -5,7 +5,7 @@ class Sell implements TradingMethods {
 
         for (int i = 0; i < N; i++) {
             if (sharePrices[i] >= c2 || i == N - 1) {
-                // Sell all shares for all day cases
+                // Sell all shares for all day cases if sharePrice more than c2
                 balance += shares.sellShares(sharePrices[i]);
             }
         }
