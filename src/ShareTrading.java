@@ -7,10 +7,9 @@ public class ShareTrading {
         N = scanner.nextInt();
         c1 = scanner.nextInt();
         c2 = scanner.nextInt();
-        int[] sharePrices;
 
-        sharePrices = startValidations(scanner,N,c1,c2);
 
+        int[] sharePrices = startValidations(scanner,N,c1,c2);
 
         Shares shares = new Shares();
         TradingMethods buy = new Buy();
