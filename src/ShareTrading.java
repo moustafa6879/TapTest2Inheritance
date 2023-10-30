@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class ShareTrading {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        final int N, c1, c2;
-        N = scanner.nextInt();
-        c1 = scanner.nextInt();
-        c2 = scanner.nextInt();
+        final int N = scanner.nextInt();
+        final int c1 = scanner.nextInt();
+        final int c2 = scanner.nextInt();
 
 
         int[] sharePrices = startValidations(scanner,N,c1,c2);
